@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { use, useEffect } from 'react'
 import Login from './Login'
 import Browse from './Browse'
 import { createBrowserRouter } from 'react-router-dom'
@@ -15,7 +15,6 @@ const Body = () => {
             element: <Browse />
         }
     ])
-
 
     return (
         <div>
