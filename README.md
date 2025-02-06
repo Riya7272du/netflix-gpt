@@ -30,6 +30,10 @@
     -TMDB IMAGE CDN_URL
     -In similar way make list for popularMovies,UpcomingMovies,Trending Movies 
     -GPT search feature 
+    -GPT seatcg page
+    -GPT search bar
+    -Multi-language feature
+    -GPT Movie suggestion 
 
 #Features
     -login/signup
