@@ -6,6 +6,7 @@ import { auth } from '../utils/firebase';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { LOGO, PHOTO_URL } from "../utils/constants";
 
 const Login = () => {
     const [isSignInform, setIsSignInform] = useState(true);
@@ -31,7 +32,7 @@ const Login = () => {
                 .then((userCredential) => {
                     const user = userCredential.user;
                     updateProfile(user, {
-                        displayName: fullName.current.value, photoURL: "https://media.licdn.com/dms/image/v2/D4D03AQGBE_np29spbQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729582759145?e=1744243200&v=beta&t=IEXPqKwPeJ8JMFW3tepvKQENkdSws1HBId_Orvtzg3Mg"
+                        displayName: fullName.current.value, photoURL: PHOTO_URL,
                     }).then(() => {
                         // Profile updated!
                         const { uid, email, displayName, photoURL } = auth.currentUser;

@@ -15,6 +15,21 @@
     -implemented sign out
     -update profiles
     -Bugfix: Sign Up user displayName and photo Url
+    -Get data from TMDB now playing movie list api
+    -Custom hook for NowPlaying movies
+    -Create movieSlice
+    -Update store with movie data
+    -Planning for MainContainer & secondary container
+    -fetch data for Trailer video
+    -Update store for trailer data
+    -embedded the youtube video and make it autoplay and mute
+    -Tailwing css to make main container look good
+    -Build secondary component
+    -Build movie list
+    -Build movie card
+    -TMDB IMAGE CDN_URL
+    -In similar way make list for popularMovies,UpcomingMovies,Trending Movies 
+    -GPT search feature 
 
 #Features
     -login/signup
